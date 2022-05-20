@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+/*---- default settings ----*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.icon {
+    color: #79ccab;
+}
+
+#icon {
+    color: #79ccab;
+}
+
+.icon:hover {
+    color: #28a745;
+}
+
+.swiper-wrapper {
+    margin-bottom: 4em;
+}
+
+.btn-primary {
+    color: #79ccab !important;
+}
+
+
+/*---- header section ----*/
+
+#header-section {
+    background: linear-gradient(-60deg, rgba(10, 10, 10, 0.6), rgba(0, 0, 0, 0.1)), url("../img/hero-bg.jpg") no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+/* .navbar-nav {
+    position: fixed;
+    z-index: 30;
+} */
+
+#header-section a {
+    text-decoration: none;
+}
+
+#hero-section h2 {
+    font-family: 'Indie Flower', cursive;
+    padding-top: 1.5em;
+}
+
+/*---- outreach section ----*/
+
+.outreach-icon {
+    margin-right: 2em;
+}
+
+.outreach-icon svg {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.outreach-content a {
+    text-decoration: none;
+}
+
+/*---- features section ----*/
+
+#featured-section {
+    background: url("../img/featured-bg.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 630px;
+    position: relative;
+}
+
+.feature-background {
+    position: absolute;
+    content: "";
+    background: #28a745;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .9;
+}
+
+/* .features {
+    padding: 60px 0;
+} */
+
+.feature-link a {
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 2px solid #79ccab;
+    background-color: #79ccab;
+    cursor: pointer;
+}
+
+.feature-link a:hover {
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.feature-image {
+    padding-bottom: 100px;
+}
+
+.feature-image img {
+    width: auto;
+    height: auto;
+    margin-left: 30px;
+    border: 10px solid #fff;
+}
+
+/*---- fundraiser section ----*/
+
+#donations-section {
+    height: 100vh;
+}
+
+.fund-head p {
+    padding-bottom: 70px;
+}
+
+.card {
+    box-shadow: 0 0 40px -10px rgb(0 0 0 / 10%);
+}
+
+#card-footer {
+    background-color: transparent;
+    border: none;
+}
+
+/*---- donations section ----*/
+
+.donor-head img {
+    width: 100px;
+    height: 100px;
+}
+
+.donor-info p {
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.donated-amount .donated {
+    width: 50%;
+    background-color: #f2f2f2;
+}
+
+.donated-amount .amount {
+    width: 50%;
+    background-color: #28a745;
+}
