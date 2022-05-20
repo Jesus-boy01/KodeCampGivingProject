@@ -25,8 +25,12 @@
     margin-bottom: 4em;
 }
 
-.btn-primary {
-    color: #79ccab !important;
+.card-border {
+    border: none;
+}
+
+.black-text {
+    color: #000;
 }
 
 
@@ -137,7 +141,8 @@
 /*---- donations section ----*/
 
 #donations-section {
-    height: 100vh;
+    height: auto;
+    padding-bottom: 2em;
 }
 
 .donor-head img {
@@ -166,8 +171,9 @@
     background: url("../img/success-bg.jpg") no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 630px;
+    height: 630px;
     position: relative;
+    margin-top: 70px;
 }
 
 .success-background {
@@ -200,4 +206,45 @@
 .success-link a:hover {
     background-color: transparent;
     border: 2px solid #fff;
+}
+
+/*---- news section ----*/
+
+.date {
+    position: relative;
+    display: block;
+    color: #fff;
+}
+
+.date span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 20px;
+    background: #79ccab;
+    color: #fff;
+    font-size: 14px;
+}
+
+.date:hover span {
+    background-color: #000;
+    font-size: 16px;
+    transition: all ease-in-out 0.3s;
+}
+
+.news-title a {
+    text-decoration: none;
+}
+
+.news-title a:hover {
+    color: #79ccab;
+}
+
+.news-text p {
+    font-size: 18px;
+    color: #999;
+}
+
+.news-link a {
+    text-decoration: none;
 }
