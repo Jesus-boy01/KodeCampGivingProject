@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+/*---- default settings ----*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.icon {
+    color: #79ccab;
+}
+
+#icon {
+    color: #79ccab;
+}
+
+.icon:hover {
+    color: #28a745;
+}
+
+.swiper-wrapper {
+    margin-bottom: 4em;
+}
+
+.card-border {
+    border: none;
+}
+
+.black-text {
+    color: #000;
+}
+
+.list-styling {
+    list-style: none;
+}
+
+.text-success {
+    color: #79ccab !important;
+}
+
+/*---- header section ----*/
+
+#header-section {
+    background: linear-gradient(-60deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url("../img/featured-bg.jpg") no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* .navbar-nav {
+    position: fixed;
+    z-index: 30;
+} */
+
+#header-section a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#header-section a:hover {
+    color: #79ccab;
+}
+
+#hero-section h2 {
+    font-family: 'Indie Flower', cursive;
+    padding-top: 3em;
+}
+
+/*---- about section ----*/
+
+#about-section {
+    padding: 80px 0 100px;
+}
+
+.about-image img {
+    width: 1200px;
+}
+
+/*---- founder section ----*/
+
+#founder-section {
+    margin-bottom: 100px;
+}
+
+.founders-head img {
+    width: 100px;
+    height: 100px;
+}
+
+.founders-info p {
+    color: #b3b3b3;
+}
+
+.founders-text p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/*---- random-display section ----*/
+
+#random-display-section {
+    margin-bottom: 80px;
+}
+
+.random-display img {
+    width: 1200px;
+}
+
+/*---- outreach section ----*/
+
+.outreach-icon {
+    margin-right: 2em;
+}
+
+.outreach-icon svg {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.outreach-content a {
+    text-decoration: none;
+}
+
+/*---- bottom-navigation section ----*/
+
+#bottom-navigation-section {
+    background-color: #404040;
+}
+
+.navigations {
+    padding: 100px 0;
+}
+
+.about-us,
+.contact-info {
+    width: 80%;
+}
+
+.about-us h3,
+.contact-info h3 {
+    padding-bottom: 1.2em;
+}
+
+.about-us-text p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.about-link {
+    margin: 40px 0 70px;
+}
+
+.about-link a {
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 2px solid #79ccab;
+    background-color: #79ccab;
+    cursor: pointer;
+}
+
+.about-link a:hover {
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.contact-info-head h3 {
+    padding-left: 1.6em;
+}
+
+.contact-info-content ul .contact-list li {
+    list-style: none;
+}
+
+/*---- footer section ----*/
+
+footer {
+    background-color: rgb(53, 50, 50);
+}

@@ -37,6 +37,10 @@
     list-style: none;
 }
 
+.text-success {
+    color: #79ccab !important;
+}
+
 
 /*---- header section ----*/
 
@@ -45,7 +49,6 @@
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
-
 }
 
 /* .navbar-nav {
@@ -55,6 +58,11 @@
 
 #header-section a {
     text-decoration: none;
+    color: #fff;
+}
+
+#header-section a:hover {
+    color: #79ccab;
 }
 
 #hero-section h2 {
