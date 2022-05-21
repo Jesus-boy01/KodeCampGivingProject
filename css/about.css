@@ -165,6 +165,7 @@
 .about-link a:hover {
     background-color: transparent;
     border: 2px solid #fff;
+    transition: all ease-in-out 0.6s;
 }
 
 .contact-info-head h3 {
