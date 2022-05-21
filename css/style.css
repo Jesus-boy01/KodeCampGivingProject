@@ -38,14 +38,14 @@
 }
 
 .text-success {
-    color: #79ccab !important;
+    color: #28a745 !important;
 }
 
 
 /*---- header section ----*/
 
 #header-section {
-    background: linear-gradient(-60deg, rgba(10, 10, 10, 0.6), rgba(0, 0, 0, 0.1)), url("../img/hero-bg.jpg") no-repeat;
+    background: linear-gradient(-60deg, rgba(0, 0, 0, 0.6), rgba(46, 43, 43, 0.1)), url("../img/hero-bg.jpg") no-repeat;
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
