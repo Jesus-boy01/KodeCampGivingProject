@@ -33,6 +33,10 @@
     color: #000;
 }
 
+.list-styling {
+    list-style: none;
+}
+
 
 /*---- header section ----*/
 
@@ -245,6 +249,66 @@
     color: #999;
 }
 
+.news-link {
+    margin-bottom: 30px;
+}
+
 .news-link a {
     text-decoration: none;
+}
+
+/*---- bottom-navigation section ----*/
+
+#bottom-navigation-section {
+    background-color: #404040;
+}
+
+.navigations {
+    padding: 100px 0;
+}
+
+.about-us,
+.contact-info {
+    width: 80%;
+}
+
+.about-us h3,
+.contact-info h3 {
+    padding-bottom: 1.2em;
+}
+
+.about-us-text p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.about-link {
+    margin: 40px 0 70px;
+}
+
+.about-link a {
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 2px solid #79ccab;
+    background-color: #79ccab;
+    cursor: pointer;
+}
+
+.about-link a:hover {
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.contact-info-head h3 {
+    padding-left: 1.6em;
+}
+
+.contact-info-content ul .contact-list li {
+    list-style: none;
+}
+
+/*---- footer section ----*/
+
+footer {
+    background-color: rgb(53, 50, 50);
 }
