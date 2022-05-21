@@ -91,20 +91,14 @@ textarea {
     height: 200px;
 }
 
-.contact-link {
-    margin: 10px 0 70px;
-}
-
-.contact-link a {
-    text-decoration: none;
+#submit {
     padding: 15px 50px;
-    border: 2px solid #79ccab;
     background-color: #79ccab;
-    cursor: pointer;
+    border: #79ccab;
     color: #fff;
 }
 
-.contact-link a:hover {
+#submit:hover {
     color: #79ccab;
     background-color: #fff;
     border: 2px solid #79ccab;
