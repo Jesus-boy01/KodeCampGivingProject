@@ -9,7 +9,8 @@
     font-family: 'Manrope', sans-serif;
 }
 
-.icon {
+.icon,
+.icon-text {
     color: #79ccab;
 }
 
@@ -17,7 +18,7 @@
     color: #79ccab;
 }
 
-.icon:hover {
+.icon-text:hover {
     color: #28a745;
 }
 
@@ -76,7 +77,7 @@
 }
 
 .about-image img {
-    width: 1200px;
+    width: 100%;
 }
 
 /*---- founder section ----*/
@@ -106,7 +107,7 @@
 }
 
 .random-display img {
-    width: 1200px;
+    width: 100%;
 }
 
 /*---- outreach section ----*/
