@@ -26,16 +26,8 @@
     margin-bottom: 4em;
 }
 
-.card-border {
-    border: none;
-}
-
 .black-text {
     color: #000;
-}
-
-.list-styling {
-    list-style: none;
 }
 
 .text-success {
@@ -58,17 +50,11 @@
 } */
 
 #header-section a {
-    text-decoration: none;
     color: #fff;
 }
 
 #header-section a:hover {
     color: #79ccab;
-}
-
-#hero-section h2 {
-    font-family: 'Indie Flower', cursive;
-    padding-top: 1.5em;
 }
 
 /*---- outreach section ----*/
@@ -81,10 +67,6 @@
     width: 40px;
     height: 40px;
     margin-top: 10px;
-}
-
-.outreach-content a {
-    text-decoration: none;
 }
 
 /*---- features section ----*/
@@ -122,52 +104,17 @@
     transition: all ease-in-out 0.6s;
 }
 
-.feature-image img {
-    width: auto;
-    height: auto;
-    border: 10px solid #fff;
-}
-
 /*---- fundraiser section ----*/
-
-.fund-head p {
-    padding-bottom: 70px;
-}
 
 .card {
     box-shadow: 0 0 40px -10px rgb(0 0 0 / 10%);
 }
 
-#card-footer {
-    background-color: transparent;
-    border: none;
-}
-
 /*---- donations section ----*/
-
-#donations-section {
-    height: auto;
-    background-color: rgb(248, 248, 248);
-}
 
 .donor-head img {
     width: 100px;
     height: 100px;
-}
-
-.donor-info p {
-    font-size: 14px;
-    color: #b3b3b3;
-}
-
-.donated-amount .donated {
-    width: 50%;
-    background-color: #f2f2f2;
-}
-
-.donated-amount .amount {
-    width: 50%;
-    background-color: #28a745;
 }
 
 /*---- success section ----*/
@@ -192,17 +139,8 @@
     opacity: .9;
 }
 
-.success {
-    padding: 80px 0 0;
-}
-
-.success-image {
-    border: 10px solid #fff;
-}
-
 .success-link a {
     text-decoration: none;
-    padding: 10px 30px;
     border: 2px solid #79ccab;
     background-color: #79ccab;
     cursor: pointer;
@@ -238,36 +176,11 @@
     transition: all ease-in-out 0.3s;
 }
 
-.news-title a {
-    text-decoration: none;
-}
-
 .news-title a:hover {
     color: #79ccab;
 }
 
-.news-text p {
-    font-size: 18px;
-    color: #999;
-}
-
-.news-link {
-    margin-bottom: 30px;
-}
-
-.news-link a {
-    text-decoration: none;
-}
-
 /*---- bottom-navigation section ----*/
-
-#bottom-navigation-section {
-    background-color: #404040;
-}
-
-.navigations {
-    padding: 100px 0;
-}
 
 .about-us,
 .contact-info {
@@ -310,8 +223,3 @@
     list-style: none;
 }
 
-/*---- footer section ----*/
-
-footer {
-    background-color: rgb(53, 50, 50);
-}

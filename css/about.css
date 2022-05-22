@@ -22,22 +22,6 @@
     color: #28a745;
 }
 
-.swiper-wrapper {
-    margin-bottom: 4em;
-}
-
-.card-border {
-    border: none;
-}
-
-.black-text {
-    color: #000;
-}
-
-.list-styling {
-    list-style: none;
-}
-
 .text-success {
     color: #79ccab !important;
 }
@@ -57,27 +41,11 @@
 } */
 
 #header-section a {
-    text-decoration: none;
     color: #fff;
 }
 
 #header-section a:hover {
     color: #79ccab;
-}
-
-#hero-section h2 {
-    font-family: 'Indie Flower', cursive;
-    padding-top: 3em;
-}
-
-/*---- about section ----*/
-
-#about-section {
-    padding: 80px 0 100px;
-}
-
-.about-image img {
-    width: 100%;
 }
 
 /*---- founder section ----*/
@@ -92,20 +60,7 @@
     height: 100px;
 }
 
-.founders-info p {
-    color: #b3b3b3;
-}
-
-.founders-text p {
-    font-size: 18px;
-    margin-top: 20px;
-}
-
 /*---- random-display section ----*/
-
-#random-display-section {
-    margin-bottom: 80px;
-}
 
 .random-display img {
     width: 100%;
@@ -128,14 +83,6 @@
 }
 
 /*---- bottom-navigation section ----*/
-
-#bottom-navigation-section {
-    background-color: #404040;
-}
-
-.navigations {
-    padding: 100px 0;
-}
 
 .about-us,
 .contact-info {
@@ -176,10 +123,4 @@
 
 .contact-info-content ul .contact-list li {
     list-style: none;
-}
-
-/*---- footer section ----*/
-
-footer {
-    background-color: rgb(53, 50, 50);
 }
