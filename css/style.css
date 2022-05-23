@@ -43,11 +43,6 @@
     background-attachment: fixed;
 }
 
-/* .navbar-nav {
-    position: fixed;
-    z-index: 30;
-} */
-
 #header-section a {
     color: #fff;
 }
@@ -78,16 +73,12 @@
 }
 
 .feature-link a {
-    text-decoration: none;
-    padding: 10px 30px;
-    border: 2px solid #79ccab;
     background-color: #79ccab;
     cursor: pointer;
 }
 
 .feature-link a:hover {
     background-color: transparent;
-    border: 2px solid #fff;
     transition: all ease-in-out 0.6s;
 }
 
@@ -95,13 +86,6 @@
 
 .card {
     box-shadow: 0 0 40px -10px rgb(0 0 0 / 10%);
-}
-
-/*---- donations section ----*/
-
-.donor-head img {
-    width: 100px;
-    height: 100px;
 }
 
 /*---- success section ----*/
@@ -112,7 +96,6 @@
     background-size: cover;
     min-height: 750px;
     position: relative;
-    margin-top: 70px;
 }
 
 .success-background {
@@ -128,14 +111,12 @@
 
 .success-link a {
     text-decoration: none;
-    border: 2px solid #79ccab;
     background-color: #79ccab;
     cursor: pointer;
 }
 
 .success-link a:hover {
     background-color: transparent;
-    border: 2px solid #fff;
     transition: all ease-in-out 0.6s;
 }
 
@@ -169,43 +150,12 @@
 
 /*---- bottom-navigation section ----*/
 
-.about-us,
-.contact-info {
-    width: 80%;
-}
-
-.about-us h3,
-.contact-info h3 {
-    padding-bottom: 1.2em;
-}
-
-.about-us-text p {
-    font-size: 18px;
-    line-height: 30px;
-}
-
-.about-link {
-    margin: 40px 0 70px;
-}
-
 .about-link a {
-    text-decoration: none;
-    padding: 10px 30px;
-    border: 2px solid #79ccab;
     background-color: #79ccab;
     cursor: pointer;
 }
 
 .about-link a:hover {
     background-color: transparent;
-    border: 2px solid #fff;
     transition: all ease-in-out 0.6s;
-}
-
-.contact-info-head h3 {
-    padding-left: 1.6em;
-}
-
-.contact-list li {
-    list-style: none;
 }

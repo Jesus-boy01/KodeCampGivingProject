@@ -35,11 +35,6 @@
     background-attachment: fixed;
 }
 
-/* .navbar-nav {
-    position: fixed;
-    z-index: 30;
-} */
-
 #header-section a {
     color: #fff;
 }
@@ -48,77 +43,30 @@
     color: #79ccab;
 }
 
-#hero-section h2 {
-    font-family: 'Indie Flower', cursive;
-}
-
 /*---- contact section ----*/
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 95%;
-    padding: 10px 20px;
-    margin-bottom: 10px;
-}
 
 textarea {
     height: 200px;
 }
 
 #submit {
-    padding: 15px 50px;
     background-color: #79ccab;
-    border: #79ccab;
     color: #fff;
 }
 
 #submit:hover {
     color: #79ccab;
     background-color: #fff;
-    border: 2px solid #79ccab;
 }
 
 /*---- bottom-navigation section ----*/
 
-.about-us,
-.contact-info {
-    width: 80%;
-}
-
-.about-us h3,
-.contact-info h3 {
-    padding-bottom: 1.2em;
-}
-
-.about-us-text p {
-    font-size: 18px;
-    line-height: 30px;
-}
-
-.about-link {
-    margin: 40px 0 70px;
-}
-
 .about-link a {
-    text-decoration: none;
-    padding: 10px 30px;
-    border: 2px solid #79ccab;
     background-color: #79ccab;
     cursor: pointer;
 }
 
 .about-link a:hover {
     background-color: transparent;
-    border: 2px solid #fff;
     transition: all ease-in-out 0.6s;
 }
-
-.contact-info-head h3 {
-    padding-left: 1.6em;
-}
-
-.contact-list li {
-    list-style: none;
-}
-
