@@ -14,20 +14,12 @@
     color: #79ccab;
 }
 
-#icon {
-    color: #79ccab;
-}
-
 .icon-text:hover {
     color: #28a745;
 }
 
 .swiper-wrapper {
     margin-bottom: 4em;
-}
-
-.black-text {
-    color: #000;
 }
 
 .text-success {
@@ -43,12 +35,8 @@
     background-attachment: fixed;
 }
 
-#header-section a {
-    color: #fff;
-}
-
 #header-section a:hover {
-    color: #79ccab;
+    color: #79ccab !important;
 }
 
 /*---- features section ----*/
@@ -57,7 +45,6 @@
     background: url("../img/featured-bg.jpg") no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 770px;
     position: relative;
 }
 
@@ -74,18 +61,11 @@
 
 .feature-link a {
     background-color: #79ccab;
-    cursor: pointer;
 }
 
 .feature-link a:hover {
     background-color: transparent;
     transition: all ease-in-out 0.6s;
-}
-
-/*---- fundraiser section ----*/
-
-.card {
-    box-shadow: 0 0 40px -10px rgb(0 0 0 / 10%);
 }
 
 /*---- success section ----*/
@@ -110,9 +90,7 @@
 }
 
 .success-link a {
-    text-decoration: none;
     background-color: #79ccab;
-    cursor: pointer;
 }
 
 .success-link a:hover {
@@ -135,24 +113,21 @@
     padding: 10px 20px;
     background: #79ccab;
     color: #fff;
-    font-size: 14px;
 }
 
 .date:hover span {
     background-color: #000;
-    font-size: 16px;
     transition: all ease-in-out 0.3s;
 }
 
 .news-title a:hover {
-    color: #79ccab;
+    color: #79ccab !important;
 }
 
 /*---- bottom-navigation section ----*/
 
 .about-link a {
     background-color: #79ccab;
-    cursor: pointer;
 }
 
 .about-link a:hover {

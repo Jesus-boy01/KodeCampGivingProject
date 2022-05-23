@@ -14,10 +14,6 @@
     color: #79ccab;
 }
 
-#icon {
-    color: #79ccab;
-}
-
 .icon-text:hover {
     color: #28a745;
 }
@@ -45,17 +41,12 @@
 
 /*---- contact section ----*/
 
-textarea {
-    height: 200px;
-}
-
 #submit {
     background-color: #79ccab;
-    color: #fff;
 }
 
 #submit:hover {
-    color: #79ccab;
+    color: #79ccab !important;
     background-color: #fff;
 }
 
@@ -63,7 +54,6 @@ textarea {
 
 .about-link a {
     background-color: #79ccab;
-    cursor: pointer;
 }
 
 .about-link a:hover {
