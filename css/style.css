@@ -29,10 +29,9 @@
 /*---- header section ----*/
 
 #header-section {
-    background: linear-gradient(-60deg, rgba(0, 0, 0, 0.6), rgba(46, 43, 43, 0.1)), url("../img/hero-bg.jpg") no-repeat;
+    background: linear-gradient(-60deg, rgba(0, 0, 0, 0.6), rgba(46, 43, 43, 0.1)), url("../img/hero-bg.jpg") no-repeat fixed;
     height: 100vh;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 #header-section a:hover {
@@ -51,12 +50,10 @@
 .feature-background {
     position: absolute;
     content: "";
-    background: #28a745;
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
-    opacity: .9;
 }
 
 .feature-link a {
@@ -81,12 +78,10 @@
 .success-background {
     position: absolute;
     content: "";
-    background: #28a745;
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
-    opacity: .9;
 }
 
 .success-link a {
@@ -112,7 +107,6 @@
     left: 0;
     padding: 10px 20px;
     background: #79ccab;
-    color: #fff;
 }
 
 .date:hover span {
