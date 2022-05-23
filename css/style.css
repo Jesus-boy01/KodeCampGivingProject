@@ -34,7 +34,6 @@
     color: #28a745 !important;
 }
 
-
 /*---- header section ----*/
 
 #header-section {
@@ -55,18 +54,6 @@
 
 #header-section a:hover {
     color: #79ccab;
-}
-
-/*---- outreach section ----*/
-
-.outreach-icon {
-    margin-right: 2em;
-}
-
-.outreach-icon svg {
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
 }
 
 /*---- features section ----*/
@@ -222,4 +209,3 @@
 .contact-info-content ul .contact-list li {
     list-style: none;
 }
-

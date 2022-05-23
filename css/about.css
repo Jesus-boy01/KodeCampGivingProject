@@ -66,22 +66,6 @@
     width: 100%;
 }
 
-/*---- outreach section ----*/
-
-.outreach-icon {
-    margin-right: 2em;
-}
-
-.outreach-icon svg {
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
-}
-
-.outreach-content a {
-    text-decoration: none;
-}
-
 /*---- bottom-navigation section ----*/
 
 .about-us,
